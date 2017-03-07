@@ -12,7 +12,7 @@ This package provides a series of functions that allow R users to access Instagr
 __IMPORTANT__: according to the [updated platform policy](https://www.instagram.com/developer/changelog/), access to most endpoints of the Instagram API (including those that return public data) requires previous approval by Instagram. More information about the permission review process can be found [here](https://www.instagram.com/developer/review/). 
 
 ## Getting Started from GitHub
-To install from github, first install the devtools package and and then run ``devtools::install_github("pablobarbera/instaR/instaR")``
+To install from github, first install the devtools package and then run ``devtools::install_github("pablobarbera/instaR/instaR")``
 
 The httpuv package is needed to trigger the web request when authorizing against Instragram using instaOAuth. When configuring the client on https://instagram.com/developer/clients/ to receive your `app_id` and `app_secret` ensure the REDIRECT URI includes the trailing / e.g. `http://localhost:1410/`
 
